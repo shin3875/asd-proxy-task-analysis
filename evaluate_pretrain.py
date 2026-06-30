@@ -779,7 +779,7 @@ def evaluate_one(extractor: FeatureExtractor, args: argparse.Namespace, device_n
             args=args,
             model_label=extractor.label,
             device_name=device_name,
-            device=device,
+            device=extractor.device,
         )
 
     if args.save_roc:
