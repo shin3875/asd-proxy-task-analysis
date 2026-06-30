@@ -120,7 +120,7 @@ def main() -> None:
     )
     args = parser.parse_args()
 
-    with args.template.open(newline="", encoding="utf-8") as handle:
+    with args.template.open(newline="", encoding="utf-8-sig") as handle:
         template_rows = list(csv.DictReader(handle))
 
     measurements = read_time_files(args.runtime_root)

@@ -15,6 +15,8 @@ toy_asd_dataset_logmel/
 DC*/
 train_dataset*/
 features*/
+libri/
+aug_maker.py
 
 # Checkpoints, logs, and experiment outputs
 saved*/
@@ -54,7 +56,6 @@ docs/runtime_coverage_report.md
 docs/runtime_measurements.csv
 docs/server_1epoch_runtime_measurements.csv
 docs/server_validation_plan.md
-docs/full_runtime_measurements_completed.csv
 docs/platform_snapshot_after_install.txt
 docs/pip_check_after_install.txt
 docs/platform_snapshot_before_install.txt
