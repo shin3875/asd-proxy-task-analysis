@@ -1,0 +1,91 @@
+# Local environments and editors
+.idea/
+.vscode/
+__pycache__/
+*.py[cod]
+AGENTS.md
+PUBLIC_RELEASE_*.md
+
+# Raw/local datasets and generated features
+asd_dataset/
+asd_dataset_np/
+asd_dataset_logmel/
+toy_asd_dataset/
+toy_asd_dataset_logmel/
+DC*/
+train_dataset*/
+features*/
+
+# Checkpoints, logs, and experiment outputs
+saved*/
+saved_*/
+saved_exp*/
+saved_proxy_lite*/
+batch_eval_results/
+shared_eval_results/
+pretrain_eval_results/
+test_result/
+*.log
+*.pth
+*.pt
+*.ckpt
+*.pkl
+*.npy
+*.npz
+*.csv
+*.png
+*.zip
+requirements-lock.txt
+requirements-paper.txt
+Analysis_of_Proxy_Tasks_for_ASD_main.pdf
+logs/
+runtime/
+server_log/
+
+# Public documentation tables
+!docs/
+!docs/*.csv
+docs/full_runtime_measurements_current.csv
+!docs/platform_snapshot.txt
+docs/github_release_guide.md
+docs/pip_check.txt
+docs/requirements-lock.txt
+docs/runtime_coverage_report.md
+docs/runtime_measurements.csv
+docs/server_1epoch_runtime_measurements.csv
+docs/server_validation_plan.md
+docs/full_runtime_measurements_completed.csv
+docs/platform_snapshot_after_install.txt
+docs/pip_check_after_install.txt
+docs/platform_snapshot_before_install.txt
+docs/pip_check_before_install.txt
+docs/requirements-lock-before-install.txt
+docs/requirements-lock-after-install.txt
+
+# Legacy local helper scripts
+scripts/reproduce_legacy_*.sh
+scripts/reproduce_old_active_contrastive.sh
+
+# Large/private result dumps
+ASD_datas/
+ASD_datas/shared/
+ASD_datas/specific/
+ASD_datas/checkpoint_test_sisdr/
+ASD_datas/sensitivity_data/
+
+# Legacy local backups
+pre-train_backup/
+legacy/
+
+# Local manifests and smoke artifacts
+rename_manifest*.csv
+rename_skipped*.csv
+manifest_*.csv
+plot_input_cache.csv
+proxy_correlation_summary.csv
+proxy_correlation_input_*.csv
+paper_figure4.png
+paper_figure4_cache.csv
+paper_table9_input_*.csv
+paper_table9_correlations.csv
+fig_proxy_asd.png
